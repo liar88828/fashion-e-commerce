@@ -1,4 +1,4 @@
-package com.tutor.fashion_e_commerce.screen.home
+package com.tutor.fashion_e_commerce.screen.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -20,7 +20,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.tutor.fashion_e_commerce.R
-import com.tutor.fashion_e_commerce.screen.component.TitleCard
 
 @Composable
 fun Category(modifier: Modifier = Modifier) {

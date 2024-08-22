@@ -25,7 +25,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.tutor.fashion_e_commerce.screen.component.Category
 import com.tutor.fashion_e_commerce.screen.component.MyNavigationBar
+import com.tutor.fashion_e_commerce.screen.component.ProductList
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -77,7 +79,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
 	) { innerPadding ->
 		Column(
 			modifier = modifier.padding(innerPadding),
-			verticalArrangement = Arrangement.spacedBy(10.dp)
+			verticalArrangement = Arrangement.spacedBy(4.dp)
 		) {
 			CarouselProduct()
 			Category()
